@@ -10,6 +10,7 @@ const MealsItemForm = ({mealsData}) => {
         addFoodToCart(dispatch,mealsData);
     }
 
+    
 
     return <form className={classes.form}>
         <Input
